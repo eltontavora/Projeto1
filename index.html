@@ -2,7 +2,7 @@
 **Cidade/Estado:** (Niterói - Rio de Janeiro)
 **História:** (34 anos. Casado com a Elena. Pai do Zion.)
 **Experiência:** (Desenvolvedor front-end com mais de 15 anos de experiência. Professor.)
-**Objetivo:** (HTML, CSS e JavaScript) -->
+**Objetivo:** (HTML, CSS e JavaScript) gitlouco-->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -27,16 +27,17 @@
         </fieldset>
         <fieldset>
             <div>
-                <label>Cidade/Estado</label>
-                <input type="text" name="cidade" id="cidade">
+                <label>E-mail</label>
+                <input type="email" name="email" id="email">
             </div>
         </fieldset>
         <fieldset>
             <div>
-                <label>História</label>
-                <input type="text" name="historia" id="historia">
+                <label>Cidade/Estado</label>
+                <input type="text" name="cidade" id="cidade">
             </div>
         </fieldset>
+        
         <fieldset>
             <div>
                 <label>Experiência:</label>
@@ -45,11 +46,39 @@
         </fieldset>
         <fieldset>
             <div>
-                <label>Objetivo:</label>
-                <input type="text" name="objetivo" id="objetivo">
+                <label>Qual seu objetivo?</label>
+                <input type="radio" name="devweb" value="frontend">Front-end
+                <input type="radio" name="devweb" value="backend">Back-end
+                <input type="radio" name="devweb" value="Fullstack">Fullstack
+                <input type="radio" name="devweb" value="perdido" checked>Cego em tiroteio
             </div>
         </fieldset>
-    </form>
-    
+        <fieldset>
+            <div>
+                <label>Quais tecnologias você conhece?</label>
+                <input type="checkbox" id="tecnologiaHtml"  name="tecnologiaHtml" value="HTML">
+                <label for="tecnologiaHtml">HTML</label>
+                <input type="checkbox" id="tecnologiaCSS"  name="tecnologiaCSS" value="HTML">
+                <label for="tecnologiaCSS">CSS</label>
+                <input type="checkbox" id="tecnologiaJavaScript"  name="tecnologiaJavaScript" value="HTML">
+                <label for="tecnologiaJavaScript">JavaScript</label>
+                <input type="checkbox" id="tecnologiaPHP"  name="tecnologiaPHP" value="HTML">
+                <label for="tecnologiaPHP">PHP</label>
+                <input type="checkbox" id="tecnologiaC#"  name="tecnologiaC#" value="HTML">
+                <label for="tecnologiaC#">C#</label>
+                <input type="checkbox" id="tecnologiaPython"  name="tecnologiaPython" value="HTML">
+                <label for="tecnologiaPython">Python</label>
+                <input type="checkbox" id="tecnologiaJava"  name="tecnologiaJava" value="HTML">
+                <label for="tecnologiaJava">Java</label>
+            </div>
+        </fieldset>
+        <fieldset>
+            <div>
+                <label>Conta a sua história:</label>
+                <textarea row="6" style="width: 26em" id="historia" namw="historia"></textarea>
+            </div>
+        </fieldset>
+        <button type="submit">Enviar</button>
+        </form>
 </body>
 </html>
