@@ -1,89 +1,3 @@
-<!-- **Nome:** (Pedro Marins)
-**Cidade/Estado:** (Niterói - Rio de Janeiro)
-**História:** (34 anos. Casado com a Elena. Pai do Zion.)
-**Experiência:** (Desenvolvedor front-end com mais de 15 anos de experiência. Professor.)
-**Objetivo:** (HTML, CSS e JavaScript) gitlouco-
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8"> 
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projeto 1 - Conquiste a sua vaga</title>
-</head>
-<body>
-    <div>
-        <h1>Cadastro da Turma 18</h1>
-        <p>Insira suas informações</p>
-        <br>
-    </div>
-    <form>
-        <fieldset>
-            <div>
-                <label>Nome</label>
-                <input type="text" name="Nome" id="nome">
-            </div>
-        </fieldset>
-        <fieldset>
-            <div>
-                <label>E-mail</label>
-                <input type="email" name="email" id="email">
-            </div>
-        </fieldset>
-        <fieldset>
-            <div>
-                <label>Cidade/Estado</label>
-                <input type="text" name="cidade" id="cidade">
-            </div>
-        </fieldset>
-        
-        <fieldset>
-            <div>
-                <label>Experiência:</label>
-                <input type="text" name="experiencia" id="experiencia">
-            </div>
-        </fieldset>
-        <fieldset>
-            <div>
-                <label>Qual seu objetivo?</label>
-                <input tname="devweb" value="frontend">Front-end
-                <input type="radio" name="devweb" vype="radio" alue="backend">Back-end
-                <input type="radio" name="devweb" value="Fullstack">Fullstack
-                <input type="radio" name="devweb" value="perdido" checked>Cego em tiroteio
-            </div>
-        </fieldset>
-        <fieldset>
-            <div>
-                <label>Quais tecnologias você conhece?</label>
-                <input type="checkbox" id="tecnologiaHtml"  name="tecnologiaHtml" value="HTML">
-                <label for="tecnologiaHtml">HTML</label>
-                <input type="checkbox" id="tecnologiaCSS"  name="tecnologiaCSS" value="HTML">
-                <label for="tecnologiaCSS">CSS</label>
-                <input type="checkbox" id="tecnologiaJavaScript"  name="tecnologiaJavaScript" value="HTML">
-                <label for="tecnologiaJavaScript">JavaScript</label>
-                <input type="checkbox" id="tecnologiaPHP"  name="tecnologiaPHP" value="HTML">
-                <label for="tecnologiaPHP">PHP</label>
-                <input type="checkbox" id="tecnologiaC#"  name="tecnologiaC#" value="HTML">
-                <label for="tecnologiaC#">C#</label>
-                <input type="checkbox" id="tecnologiaPython"  name="tecnologiaPython" value="HTML">
-                <label for="tecnologiaPython">Python</label>
-                <input type="checkbox" id="tecnologiaJava"  name="tecnologiaJava" value="HTML">
-                <label for="tecnologiaJava">Java</label>
-            </div>
-        </fieldset>
-        <fieldset>
-            <div>
-                <label>Conta a sua história:</label>
-                <textarea row="6" style="width: 26em" id="historia" namw="historia"></textarea>
-            </div>
-        </fieldset>
-        <button type="submit">Enviar</button>
-        </form>
-</body>
-</html>
--->
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -94,7 +8,7 @@
         <style>
             body{
                 font-family: Arial, Helvetica, sans-serif;
-                background-image: linear-gradient(to right, rgb(20,147, 220), rgb(17,54,71));
+                background-image: linear-gradient(to right, rgb(116, 118, 119), rgb(17,54,71));
             }
             .box{
                 position: absolute; 
@@ -166,22 +80,22 @@
 </head>
 <body>
     <div class="box">
-        <form action="">
+        <form action="https://api.sheetmonkey.io/form/oBZbyFy5w6bjcWHDSVbf3R" method="post">
             <fieldset>
                 <legend><b>Cadastro da Turma 18</b></legend>
                 <br>
               <div class="inputBox">
-                    <input type="text" nome="nome" id="nome" class="inputUser" required>
+                    <input type="text" name="nome" id="nome" class="inputUser" required>
                     <label for="nome" class="labelInput">Nome Completo</label>
                 </div>
                 <br><br> 
                 <div class="inputBox">
-                    <input type="text" nome="cidade" id="cidade" class="inputUser" required>
+                    <input type="text" name="cidade" id="cidade" class="inputUser" required>
                     <label for="cidade" class="labelInput">Cidade/Estado</label>
                 </div>
                 <br><br>
                 <div class="inputBox">
-                    <input type="email" nome="email" id="nome" class="inputUser" required>
+                    <input type="email" name="email" id="nome" class="inputUser" required>
                     <label for="email" class="labelInput">E-mail</label>
                 </div> 
                 <br><br>
@@ -197,13 +111,13 @@
                     <input type="radio" name="devweb" value="Fullstack">
                     <label for="fullstack">Fullstack</label>
                     <br>
-                    <input type="radio" name="devweb" value="perdido" checked>
+                    <input type="radio" name="devweb" value="perdido">
                     <label for="perdido">Cego em tiroteio</label>
                 </div>
                 <br><br>
                 <div>
                     <label for="dataNascimento"><b>Data de Nascimento</b></label>
-                    <input type="date" nome="dataNascimento" id="dataNascimento">
+                    <input type="date" name="dataNascimento" id="dataNascimento">
                 </div> 
                 <br><br>
                 <div>
@@ -211,18 +125,21 @@
                     <br><br>
                     <input type="checkbox" id="tecnologiaHtml"  name="tecnologiaHtml" value="HTML">
                     <label for="tecnologiaHtml">HTML</label>
-                    <input type="checkbox" id="tecnologiaCSS"  name="tecnologiaCSS" value="HTML">
+                    <input type="checkbox" id="tecnologiaCSS"  name="tecnologiaCSS" value="CSS">
                     <label for="tecnologiaCSS">CSS</label>
-                    <input type="checkbox" id="tecnologiaJavaScript"  name="tecnologiaJavaScript" value="HTML">
+                    <input type="checkbox" id="tecnologiaJavaScript"  name="tecnologiaJavaScript" value="JavaScript">
                     <label for="tecnologiaJavaScript">JavaScript</label>
-                    <input type="checkbox" id="tecnologiaPHP"  name="tecnologiaPHP" value="HTML">
+                    <input type="checkbox" id="tecnologiaPHP"  name="tecnologiaPHP" value="PHP">
                     <label for="tecnologiaPHP">PHP</label>
-                    <input type="checkbox" id="tecnologiaC#"  name="tecnologiaC#" value="HTML">
+                    <br>
+                    <input type="checkbox" id="tecnologiaC#"  name="tecnologiaC#" value="C#">
                     <label for="tecnologiaC#">C#</label>
-                    <input type="checkbox" id="tecnologiaPython"  name="tecnologiaPython" value="HTML">
+                    <input type="checkbox" id="tecnologiaPython"  name="tecnologiaPython" value="Python">
                     <label for="tecnologiaPython">Python</label>
-                    <input type="checkbox" id="tecnologiaJava"  name="tecnologiaJava" value="HTML">
+                    <input type="checkbox" id="tecnologiaJava"  name="tecnologiaJava" value="Java">
                     <label for="tecnologiaJava">Java</label>
+                    <input type="checkbox" id="nenhuma"  name="nenhuma" value="nenhuma">
+                    <label for="tecnologiaJava">Nenhuma</label>
                 </div>
                 <br>
                 <div>
